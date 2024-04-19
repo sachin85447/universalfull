@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{scroll-behavior: smooth;}
+
+
+#navlist {
+    margin-left: 370px;
+}
+
+#list_mg {
+    margin-left: 15px;
+    color: aliceblue;
+}
+
+#list_mg:hover {
+    color: blue;
+
+}
+
+#bkclor {
+    background-color: rgb(142, 139, 139);
+    width: 100%;
+   
+}
+
+
+
+#locationdiv {
+    background-color: rgb(7, 107, 248);
+    height: 100px;
+}
+
+#social {
+    display: flex;
+    list-style: none;
+    margin-right: 120px;
+    margin-top: -5px;
+}
+
+#so_icon {
+    margin-left: 25px;
+}
+
+#soicial {
+    height: 40px;
+    background-color: rgb(3, 54, 164);
+}
+
+#map {
+    font-size: 12px;
+    margin-top: -25px;
+    margin-left: 0px;
+   
+    color: white;
+}
+
+
+
+#image_div {
+
+    background-image: url(" pexels-pixabay-274060.jpg");
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#text {
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    top: 25%;
+    color: white;
+
+    background: transparent;
+    background-color: rgba(255, 255, 255, .2);
+
+
+}
+
+#maincard {
+
+    height: 20vh;
+    position: relative;
+
+    padding: 25px;
+
+
+    color: rgba(79, 78, 78, 0.836);
+
+    text-align: center;
+
+
+
+
+}
+
+#pack_hov {
+    margin-top: 2px;
+    border-bottom: 1px solid white;
+}
+
+#pack_hov:hover {
+    color: blue;
+}
+
+#submenu_li {
+    background-image: url(" backmonu-removebg-preview.png");
+   background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+    display: none;
+    margin-left: -700px;
+    height: 450px;
+    background-color:white ;
+    position: absolute;
+    z-index: 3;
+    margin-top: 8px;
+    object-fit: cover;
+}
+
+#list_mg:hover #submenu_li {
+    display: block;
+}
+
+#des_1 {
+    list-style: none;
+    color: black;
+    margin-left: -25px;
+}
+
+
+
+
+
+@media (max-width:480px) {
+    #small {
+        font-size: 12px;
+        color: rgb(10, 85, 224);
+    }
+
+    #text {
+        margin-top: -100px;
+    }
+    #submenu_li{font-size: 15.5px; }
+    #pack_hov{margin-top: 3px;}
+    #hash{font-size: 13px;}
+
+}
+
+
+
+
+
+
+
+@media (max-width:991px) {
+    #navlist {
+        margin-left: -0px;
+        font-size: 20px;
+    }
+
+    #social {
+        margin-right: 0px;
+    }
+
+
+
+    #fixing {
+        margin-left: 60px;
+    }
+
+    #text {
+        position: absolute;
+
+    }
+
+    #submenu_li {
+        margin-left: -28px;
+        height: 800px;
+    }
+    #hash{font-size: 17px;}
+
+}
+
+
+
+/* css slider cards */
+#typewriter {
+    color: rgb(22, 217, 22);
+}
+
+
+
+/* why we */
+
+
+.single-review {
+    -webkit-box-shadow: 0 0.313rem 0.875rem var(--secondary-l-color);
+            box-shadow: 0 0.313rem 0.875rem var(--secondary-l-color);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .single-review .card-top {
+    position: relative;
+  }
+  
+  .single-review .quot-icon {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+  }
+  
+  .single-review .reviewer {
+    position: relative;
+  }
+  
+  .single-review .reviewer::after {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    bottom: calc(100% - 10px);
+    left: 15%;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+  .single-review:hover {
+    -webkit-box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
+            box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125);
+  }
+  
